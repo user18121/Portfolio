@@ -25,15 +25,28 @@ function loadContent(section) {
   let content = '';
 
   switch (section) {
+    //Bio>
     case 'bio':
       content = `
         <section id="bio">
           <h1>Bio</h1>
-          <p>Welcome to my portfolio! I am a passionate developer with experience in front-end technologies. I love creating interactive web applications and learning new technologies.</p>
+          <p>
+          Hi there! I'm a passionate and versatile developer with a strong foundation in both frontend and backend development. I specialize in creating seamless, efficient, and user-friendly applications, leveraging a wide range of technologies including C++, Java, Kotlin, C#, and MongoDB.
+
+I also have solid experience with Git for version control, ensuring smooth collaboration and project management. My goal is to combine technical expertise with creative problem-solving to build impactful solutions that drive results.
+
+While I’m actively seeking my first opportunity in the industry, I’ve been honing my skills through personal projects, continuous learning, and staying up-to-date with the latest industry trends.
+
+If you're looking for a dedicated developer with a hunger to learn, grow, and contribute to meaningful projects, let's connect!
+
+
+          </p>
           <img src="profile.jpg" alt="Profile Picture" />
         </section>
       `;
       break;
+    //<bio
+    //Projects>
       case 'projects':
         content = `
           <section id="projects">
@@ -59,7 +72,8 @@ function loadContent(section) {
           </section>
         `;
         break;
-      
+      //<projects
+      //skills>
       case 'skills':
         content = `
           <section id="skills">
@@ -119,12 +133,15 @@ function loadContent(section) {
           </section>
         `;
         break;
-      
+      //<skills
+
+      //contact>
     case 'contact':
       content = `
         <section id="contact">
           <h1>Contact</h1>
           <p>Email: sabasajaia42@gmail.com</p>
+          <p>contact Email: sabasajaia42@proton.me</p>
           <p>Phone: (+995)<img src="flag.png" class="flag" /> 591-93-54-42 </p>
         </section>
       `;
@@ -162,7 +179,7 @@ function loadContent(section) {
       content = `<section><h1>404 Not Found</h1></section>`;
       break;
   }
-
+//<contact
   
   mainContent.innerHTML = content;
 }
