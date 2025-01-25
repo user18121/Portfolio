@@ -110,7 +110,7 @@ function loadContent(section) {
               </div>
               <div class="skill">
                 <h3>Kotlin</h3>
-                <p>Familiar with Kotlin for Android development and other JVM-based applications.</p>
+                <p>Familiar with Kotlin, for Android development and other JVM-based applications.</p>
                 <div class="progress-bar">
                   <span style="width: 60%"></span>
                 </div>
