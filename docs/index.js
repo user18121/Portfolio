@@ -32,11 +32,8 @@ function loadContent(section) {
           <h1>Bio</h1>
           <p>
           Hi there! I'm a passionate and versatile developer with a strong foundation in both frontend and backend development. I specialize in creating seamless, efficient, and user-friendly applications, leveraging a wide range of technologies including C++, Java, Kotlin, C#, and MongoDB.
-
 I also have solid experience with Git for version control, ensuring smooth collaboration and project management. My goal is to combine technical expertise with creative problem-solving to build impactful solutions that drive results.
-
 While I’m actively seeking my first opportunity in the industry, I’ve been honing my skills through personal projects, continuous learning, and staying up-to-date with the latest industry trends.
-
 If you're looking for a dedicated developer with a hunger to learn, grow, and contribute to meaningful projects, let's connect!
 
 
